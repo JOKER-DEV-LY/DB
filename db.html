@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Gaèri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+        <link rel="icon" type="images/logo/logo.png" href="images/logo/logo.png">
+    </head>
+<body>   
+<section class="hero">
+    <div class="main-width">
+        <header>
+            <div class="logo">
+                <img src="images/logo/Logo-DB.gif" width="150"height="130" margin-top="50%"><h2><a href="index.html" style="font-family: 'Poppins', sans-serif;">BALTRIS STATE</a></h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="index.html">القائمه الرئيسيه</a></li>
+
+                        <li class="active"><a href="car.html">سيارات خاصة</a></li>
+                        <li class="active"><a href="weapon.html">الأسلحة الذهبية</a></li>
+                        <li><a href="https://discord.gg/zEVmuE2XeC">Server Discord</a></li>
+                        <li><a href="https://rami-elbora-bbzabb.users.cfx.re/">الدخول الى المدينه</a></li>
+                        <li><a href="https://discord.gg/zEVmuE2XeC">حزم السيارات</a></li>
+                    </ul>
+
+                </nav>
+
+        </header>
+        <section>
+            <div id="name-input">
+                <h1 style="text-align: center;">دولة بالتريس</h1>
+                <div class="name-input-container">
+                    <input type="text" id="name" placeholder="أدخل اسمك">
+                    <input type="text" id="balance-code" placeholder="أدخل رمز الرصيد">
+                    <input type="text" id="Discord-name" placeholder="ادخل اسم حساب الديسكورد">
+                    <select id="car-select">
+                        <option value="">اختار نوع السياره</option>
+                        <option value="BMW1" data-image="car1.jpg">BMW1</option>
+                        <option value="BMW3" data-image="car2.jpg">Toyota2</option>
+                        <option value="BMW2" data-image="car3.jpg">اسم السيارة 3</option>
+                    </select>
+                    <select id="car-jok">
+                        <option value="">اختر نوع السلاح</option>
+                        <option value="AKM" data-image="car1.jpg">AKM</option>
+                        <option value="SMG" data-image="car2.jpg">SMG</option>
+                        <option value="M4" data-image="car3.jpg">M4</option>
+                    </select>
+                    <button onclick="sendToWhatsApp()">إرسال إلى الواتساب</button>
+                </div>
+            </div>
+        </section>
+            <script src="js/db.js"></script>
+</body>
+</html
